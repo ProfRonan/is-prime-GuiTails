@@ -9,10 +9,9 @@ while True:
     if N <=0:
         print("Número inválido")
         break
-    if N % i ==0 and N !=i:
+    if N % i ==0 and i !=N:
         print("Não primo")
         break
-    if N % i !=0 and i ==i:
-        if i < 10000000000000000000000000000000000:
-            print("Primo")
-            break
+    if N % i ==0 and i ==N:
+        print("Primo")
+        break
