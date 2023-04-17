@@ -12,7 +12,7 @@ while True:
     if N % i ==0 and N !=i:
         print("Não primo")
         break
-    if N % i !=0 and i > 10000000000000000000000000000000000:
+    if N % i !=0 and i ==i:
         if i < 10000000000000000000000000000000000:
             print("Primo")
             break
