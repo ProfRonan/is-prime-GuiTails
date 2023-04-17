@@ -10,12 +10,8 @@ while True:
     i = i + 1
     if N % i ==0 and N !=i:
         print("Não primo")
-        print(i,"é seu divisor")
         break
     if N % i !=0 and i > 10000000000000000000000000000000000:
-        if i > 10000000000000000000000000000000000:
-            print("Número muito grande")
-            break
         if i < 10000000000000000000000000000000000:
             print("Primo")
             break
