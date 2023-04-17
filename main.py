@@ -4,7 +4,7 @@ i = 1
 while True:
     i = i + 1
     if N ==1:
-        print("Primo")
+        print("Não primo")
         break
     if N <=0:
         print("Número inválido")
